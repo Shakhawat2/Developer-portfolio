@@ -138,12 +138,7 @@ main {
 
 .about-title {
     color: #757575;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+ 
 }
 
 .about-info {
@@ -153,4 +148,44 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+
+/* what I do section style  */
+.what-i-do {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.what-i-do-card-details {
+    display: flex;
+    gap: 15px;
+}
+.my-knowledge-card {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.knowledge-info {
+    color: #181818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+.knowledge-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+.summary{
+    margin-top: 130px;
+    text-align: center;
 }
