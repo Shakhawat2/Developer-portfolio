@@ -275,9 +275,32 @@ main {
     line-height: 28px;
     margin-top: 20px;
 }
-.contact-image{
+
+.contact-image {
     margin-top: 20px;
 }
-.connect-img{
+
+.connect-img {
     margin-left: 20px;
+}
+
+.input-name {
+    width: 461px;
+    height: 64px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+}
+
+.text-area {
+    width: 461px;
+    height: 180px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 25px;
+    border: none;
+    margin-bottom: 15px;
 }
